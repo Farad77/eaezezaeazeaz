@@ -1,0 +1,176 @@
+﻿Diagnose log at 2026-03-30T06:27:44Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.5.1+90d5f897f164a8fe07d2aa3bf7db439b0b4e03ea
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26100)
+Reading environment variables... OK
+ Variables:
+HOMEPATH=\Users\jrboyer
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMPUTERNAME=S7-P03
+GIT_TRACE2_PARENT_SID=efeb0f6e-26f8-4085-9786-89715f5a28d5
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+ProgramW6432=C:\Program Files
+OneDrive=C:\Users\jrboyer\OneDrive
+WT_PROFILE_ID={61c54bbd-c2c6-5271-96e7-009a87ff44bf}
+HOME=C:\Users\jrboyer
+PROCESSOR_REVISION=5000
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+TMP=C:\Users\jrboyer\AppData\Local\Temp
+TEMP=C:\Users\jrboyer\AppData\Local\Temp
+LOCALAPPDATA=C:\Users\jrboyer\AppData\Local
+MSYSTEM=MINGW64
+TERM=xterm-256color
+COLORTERM=truecolor
+USERDNSDOMAIN=LOCAL.ILOI.NET
+USERDOMAIN=LOCAL
+ProgramFiles(x86)=C:\Program Files (x86)
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\jrboyer\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files (x86)\AOMEI\AOMEI Backupper\8.0.0;C:\Users\jrboyer\AppData\Local\Microsoft\WindowsApps;C:\Users\jrboyer\AppData\Local\GitHubDesktop\bin;C:\Users\jrboyer\AppData\Local\Programs\Microsoft VS Code\bin
+PROCESSOR_LEVEL=25
+PROCESSOR_IDENTIFIER=AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
+TMPDIR=C:\Users\jrboyer\AppData\Local\Temp
+PSModulePath=C:\Users\jrboyer\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC=C:\Users\Public
+NUMBER_OF_PROCESSORS=16
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+WT_SESSION=7cabf3cb-ecf6-4147-9f39-3a01880640c7
+WSLENV=WT_SESSION:WT_PROFILE_ID:
+USERPROFILE=C:\Users\jrboyer
+PLINK_PROTOCOL=ssh
+ProgramData=C:\ProgramData
+MSYS=disable_pcon
+ProgramFiles=C:\Program Files (x86)
+SystemRoot=C:\WINDOWS
+SESSIONNAME=Console
+LC_CTYPE=C.UTF-8
+CommonProgramW6432=C:\Program Files\Common Files
+LOGONSERVER=\\SRVDC01
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+USERDOMAIN_ROAMINGPROFILE=LOCAL
+APPDATA=C:\Users\jrboyer\AppData\Roaming
+HOMEDRIVE=C:
+USERNAME=jrboyer
+PROCESSOR_ARCHITEW6432=AMD64
+PROCESSOR_ARCHITECTURE=x86
+OS=Windows_NT
+ComSpec=C:\WINDOWS\system32\cmd.exe
+SystemDrive=C:
+windir=C:\WINDOWS
+ALLUSERSPROFILE=C:\ProgramData
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\jrboyer\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\jrboyer\AppData\Local\Temp\075346a3bde87079f8392c8e'... OK
+Reading from temporary file 'C:\Users\jrboyer\AppData\Local\Temp\075346a3bde87079f8392c8e'... OK
+Deleting temporary file 'C:\Users\jrboyer\AppData\Local\Temp\075346a3bde87079f8392c8e'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\jrboyer
+UserDataDirectoryPath: C:\Users\jrboyer\.gcm
+GetCurrentDirectory(): C:\Users\jrboyer\gittttttttt\nouvo git\eaezezaeazeaz
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:56427/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.46.1.windows.1'
+Locating current repository...Git repository at 'C:/Users/jrboyer/gittttttttt/nouvo git/eaezezaeazeaz/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=openssl
+file:C:/Program Files/Git/etc/gitconfig	http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/jrboyer/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/jrboyer/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/jrboyer/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/jrboyer/.gitconfig	filter.lfs.required=true
+file:C:/Users/jrboyer/.gitconfig	user.name=jean
+file:C:/Users/jrboyer/.gitconfig	user.email=95246204+Raphael1199@users.noreply.github.com
+file:C:/Users/jrboyer/.gitconfig	credential.helper=
+file:C:/Users/jrboyer/.gitconfig	credential.helper=C:/Program\ Files/Git/mingw64/bin/git-credential-manager.exe
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/Farad77/eaezezaeazeaz.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\jrboyer\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\jrboyer\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
